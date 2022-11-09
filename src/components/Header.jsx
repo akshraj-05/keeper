@@ -1,8 +1,12 @@
 import React from "react";
-
-function Header(){
-    return(
-        <header><h1>Keeper</h1></header>
+import NotesIcon from '@mui/icons-material/Notes';
+function Header() {
+    return (
+        <header>
+            <h1>
+                <NotesIcon />Keeper
+            </h1>
+        </header>
     );
 }
 
